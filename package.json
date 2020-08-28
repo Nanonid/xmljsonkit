@@ -1,0 +1,42 @@
+{
+  "name": "xmljsonkit",
+  "version": "1.0.0",
+  "description": "XML to JSON parser library with ordered elements",
+  "main": "dist/xmljsonkit.js",
+  "types": "dist/index.d.ts",
+  "repository": "https://github.com/Nanonid/xmljsonkit.git",
+  "author": "Nanonid <eric.lindahl.tab@gmail.com>",
+  "license": "APACHE-2",
+  "private": false,
+  "devDependencies": {
+    "@types/jest": "^26.0.10",
+    "@types/node": "^14.6.1",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.3.0",
+    "ts-loader": "^8.0.3",
+    "ts-node": "^9.0.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "chevrotain": "^7.0.1",
+    "typescript": "^4.0.2"
+  },
+  "scripts": {
+    "build": "webpack",
+    "test": "jest",
+    "prepublishOnly": "webpack --mode=production",
+    "jsex" : "node ./examples/ordered.js"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "testRegex": "/tests/.*\\.spec\\.(ts|tsx|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "verbose": true
+  }
+}
