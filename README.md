@@ -1,5 +1,7 @@
 xmljsonkit
 ==
+XML to JSON parser library with ordered elements.
+
 **xmljsonkit** is a XML to JSON parser library that is built on the fast and extensible [Chevrotain](https://sap.github.io/chevrotain/docs/) parser.
 
 **xmljsonkit** is a small extenion of the [Chevrotain Example XML Parser](https://github.com/SAP/chevrotain/tree/master/examples/grammars/xml) with a JSON Concrete Syntax Tree (CST) visitor that can be extended for special XML syntax or JSON handling.

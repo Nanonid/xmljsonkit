@@ -1,5 +1,5 @@
 import { parseXML } from "../xmlparser";
-import { XMLToJsonVistor, visitXMLResult } from "./jsonvisitor";
+import { XMLToJsonVistor, visitXMLResult, convertNumeric } from "./jsonvisitor";
 import { CstNode } from "chevrotain";
 
 export const ORDERED_PROPERTY = "__elements";
@@ -21,8 +21,8 @@ export const ORDERED_PROPERTY = "__elements";
  *         { close : {} } ] }
  */
 export class OrderedXMLToJsonVistor extends XMLToJsonVistor {
-    constructor(public ordered = new Set<string>(), public attrPreix = "_", public textProperty = "#text") {
-        super();
+    constructor(public ordered = new Set<string>(), cvt = convertNumeric, attrPrefix = "_", textProperty = "#text") {
+        super(cvt, attrPrefix, textProperty);
     }
 
     /**
