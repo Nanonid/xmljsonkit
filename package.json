@@ -1,6 +1,6 @@
 {
   "name": "xmljsonkit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "XML to JSON parser library with ordered elements",
   "keywords": [ "xml", "json", "xml2json" ],
   "main": "dist/xmljsonkit.js",

@@ -1,0 +1,1 @@
+{"version":3,"file":"xmlapi.d.ts","sourceRoot":"","sources":["../../src/xmlparser/xmlapi.ts"],"names":[],"mappings":"AAEA,OAAO,EAAE,OAAO,EAAE,YAAY,EAAE,qBAAqB,EAAE,MAAM,YAAY,CAAC;AAE1E,MAAM,WAAW,SAAS;IACtB,GAAG,EAAE,OAAO,CAAC;IACb,SAAS,EAAE,YAAY,EAAE,CAAC;IAC1B,WAAW,EAAE,qBAAqB,EAAE,CAAC;CACxC;AAED,wBAAgB,QAAQ,CAAC,OAAO,EAAE,MAAM,GAAG,SAAS,CAYnD"}
