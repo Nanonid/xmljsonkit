@@ -1,6 +1,6 @@
 {
   "name": "xmljsonkit",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "XML to JSON parser library with ordered elements",
   "keywords": [ "xml", "json", "xml2json" ],
   "main": "dist/xmljsonkit.js",
@@ -9,7 +9,7 @@
   "author": "Nanonid <eric.lindahl.tab@gmail.com>",
   "license": "APACHE-2",
   "private": false,
-  "files": [ "./dist" ],
+  "files": [ "dist" ],
   "devDependencies": {
     "@types/jest": "^26.0.10",
     "@types/node": "^14.6.1",
